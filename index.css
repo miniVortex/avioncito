@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #1a1a4a);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  background: rgba(0, 20, 40, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+  border: 2px solid #00ccff;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ccff, 0 0 20px #0088ff;
+  background: linear-gradient(to right, #ff00cc, #00ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contador {
+  background: linear-gradient(to bottom, #000822, #0a1a3a);
+  border: 3px solid #00ccff;
+  border-radius: 8px;
+  font-size: 2em;
+  margin-bottom: 30px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(0, 200, 255, 0.4);
+}
+
+#porcentaje {
+  font-size: 1.2em;
+  color: #f55;
+  margin-top: 10px;
+}
+
+.barra-contenedor {
+  width: 100%;
+  max-width: 500px;
+  height: 20px;
+  border: 1px solid #f55;
+  margin-top: 10px;
+  background-color: #000;
+  position: relative;
+}
+
+.barra-progreso {
+  background-color: #f55;
+  height: 100%;
+  width: 0%;
+  transition: width 0.2s ease;
+}
