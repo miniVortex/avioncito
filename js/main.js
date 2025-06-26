@@ -19,7 +19,10 @@ window.addEventListener("DOMContentLoaded", () => {
   }, 10000);
 });
 
-//¿Qué tal algo que te redirija a algun login? ¿Quizá algun html?
+/*¿Habrá algun otro lugar al que ir desde acá? 
+No hay ningun boton salvador el el main, nada oculto.
+¿no existe otra manera de navegar entre páginas?
+¿Qué tal algo que te redirija a algun login? ¿Quizá algun html?*/
 
 let A = 0, B = 0;
 const donut = document.getElementById('donut');
