@@ -17,7 +17,7 @@ function actualizar() {
   // Actualizar contador
   if (restante <= 0) {
     document.getElementById("contador").textContent = "¡Es el momento! ❤️";
-    setTimeout(() => window.location.href = "main.html", 3000);
+    setTimeout(() => window.location.href = "templates/main.html", 3000);
   } else {
     const dias = Math.floor(restante / (1000 * 60 * 60 * 24));
     const horas = Math.floor((restante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
